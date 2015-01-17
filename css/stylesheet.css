@@ -1,7 +1,111 @@
+/* Rekryyn */
+
+#headerbar {
+  background-color:rgba(0,0,0,0.7);
+  height: 100px;
+}
+
+#headerbar a {
+  color: white;
+}
+
+#headerbar a:hover {
+  color: gray;
+}
+
+#first {
+  padding-top: 160px;
+}
+
+@media only screen and (min-width : 992px) {
+  article {
+    padding-top: 5px;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+
+  article {
+    padding: 5em 1em;
+    min-height: 50px;
+    font-size: 16px;
+  }
+}
+
+
+/* Rekry päättyy */
+
+/* Footerin tyylit */
+
+footer {
+  text-align: center;
+  background: white;
+}
+
+#logorow {
+  padding: 2em;
+}
+
+.footerimg {
+  max-height: 200px;
+  max-width: 250px;
+}
+
+.footerlogo {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1.5em;
+}
+
+.footerlogo:hover .on, .footerlogo .off {
+  display:none;
+}
+
+.footerlogo:hover .off {
+  display:block;
+}
+
+#bottom {
+  background-color:rgba(0,0,0,0.7);
+}
+
+#footernav {
+  text-align: center;
+  padding-top: 5px;
+}
+
+#footernav a {
+  color: white;
+  padding: 5px 5px;
+}
+
+#footernav a:hover {
+  color: gray;
+}
+
+#contact {
+  font-size: 10px;
+  color:white;
+}
+
+#rekryemail {
+  padding: 0.5em;
+  margin: 0;
+}
+
+
+
+/* Footerin tyylit loppu */
+
+
 /* Yleiset */
 
 a:link, a:visited, a:active, .right-menu li a {
-  color: #0AA699;
+  color: gray;
   text-decoration: none !important;
 }
 
@@ -40,13 +144,6 @@ ul {
 }
 
 @media only screen and (min-width : 992px) {
-  article {
-    padding-top: 5px;
-    padding-bottom: 5%;
-    padding-left: 15%;
-    padding-right: 15%;
-    font-size: 16px;
-  }
 
   .modelimg {
     display: none;
@@ -718,45 +815,6 @@ header .navbar {
 /* BG (Kuvataustat) loppu */
 
 
-/* Footerin tyylit */
-
-footer {
-  text-align: center;
-  background: white;
-}
-
-#logorow {
-  padding: 2em;
-}
-
-.footerimg {
-  max-height: 100px;
-  max-width: 250px;
-}
-
-.footerlogo {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 1.5em;
-}
-
-.footerlogo:hover .on, .footerlogo .off {
-  display:none;
-}
-
-.footerlogo:hover .off {
-  display:block;
-}
-
-#yhteystiedot {
-  text-align: center;
-  font-size: small;
-  padding: 0.5em;
-}
-
-/* Footerin tyylit loppu */
-
-
 /* Padit ja puhelimet */
 
 @media only screen and (max-width : 992px) {
@@ -772,12 +830,6 @@ footer {
   .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     margin-top: 1em;
     padding: 0;
-  }
-
-  article {
-    padding: 5em 1em;
-    min-height: 50px;
-    font-size: 16px;
   }
 
   .row {
