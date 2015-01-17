@@ -25,7 +25,7 @@
 }
 
 #fourth {
-  
+
 }
 
 #picrow {
@@ -45,8 +45,8 @@
 
 @media only screen and (min-width : 992px) {
   article {
-    padding-top: 5px;
-    padding-bottom: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
     font-size: 16px;
