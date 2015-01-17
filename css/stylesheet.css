@@ -13,15 +13,30 @@
 }
 
 #first {
-  padding-top: 160px;
+  padding-top: 85px;
+}
+
+#picrow {
+  margin: 0;
+  padding: 0;
+}
+
+#piccol {
+  margin: 0;
+  padding: 0;
+}
+
+#txtcol {
+  margin: 0;
+  padding: 1em;
 }
 
 @media only screen and (min-width : 992px) {
   article {
     padding-top: 5px;
     padding-bottom: 5%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 0;
+    padding-right: 0;
     font-size: 16px;
   }
 }
@@ -29,8 +44,7 @@
 @media only screen and (max-width : 992px) {
 
   article {
-    padding: 5em 1em;
-    min-height: 50px;
+    padding: 0;
     font-size: 16px;
   }
 }
@@ -174,6 +188,7 @@ h1 {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   border-bottom: none;
   font-size: 6em;
+  text-align: center;
 }
 
 h2 {
