@@ -12,6 +12,14 @@
   color: gray;
 }
 
+#v2014 {
+  float: right;
+}
+
+#cloud {
+  text-align: center;
+}
+
 #first {
   padding-top: 85px;
 }
